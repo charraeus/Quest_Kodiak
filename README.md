@@ -36,4 +36,4 @@ Version: 1.0`".
 
 ### Kodiak_commands.lua
 
-A script that defines additional X-Plane 11-commands to be used by joysticks or keys. Based on the script by Popeye_swe.
+A script that provides additional X-Plane 11-commands to be used by joysticks or keys. Based on the script by Popeye_swe.
