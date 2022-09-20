@@ -4,10 +4,14 @@
 
 This repository contains tuning scripts for my X-Plane 11-aircraft "Quest Kodiak". The scripts are written in Lua or FlyWithLua. 
 
+
 ## Files and folders
+
 ### Overview
-* *writeKodiakPrefs.lua*: App  
+* *writeKodiakPrefs.lua*: App to set some Kodiak preferences which are always overwritten with default values (workaround for Kodiak-issue)
 *Example Quest_Kodiak-LR_G1000_prefs.txt*: copy of the preferences file in the aircraft folder.
+* *FlywithLua*: Alle FlyWithLua scripts lay here
+  * *Kodiak_commands.lua*: A script that defines additional X-Plane 11-commands to be used by joysticks or keys
 
 ### writeKodiakPrefs.lua, Example Quest_Kodiak-LR_G1000_prefs.txt
 
@@ -29,3 +33,7 @@ This FlyWithLua-script overwrites the following preferences:
 ```
 For development purposes I included an example preferences file out of my X-Plane Kodiak-aircraft folder "`Example Quest_Kodiak-LR_G1000_prefs.txt
 Version: 1.0`".
+
+### Kodiak_commands.lua
+
+A script that defines additional X-Plane 11-commands to be used by joysticks or keys. Based on the script by Popeye_swe.
