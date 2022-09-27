@@ -1,6 +1,6 @@
-# Quest_Kodiak
+# XPlaneEnhancement
 
-## About Quest_Kodiak repository
+## About XPlaneEnhancementrepository
 
 This repository contains tuning scripts for my X-Plane 11-aircraft "Quest Kodiak". The scripts are written in Lua or FlyWithLua. 
 
