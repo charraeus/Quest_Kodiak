@@ -1,6 +1,6 @@
 # XPlaneEnhancement
 
-## About XPlaneEnhancementrepository
+## About XPlaneEnhancement repository
 
 This repository contains tuning scripts for my X-Plane 11-aircraft "Quest Kodiak". The scripts are written in Lua or FlyWithLua. 
 
@@ -9,7 +9,7 @@ This repository contains tuning scripts for my X-Plane 11-aircraft "Quest Kodiak
 
 ### Overview
 * *writeKodiakPrefs.lua*: App to set some Kodiak preferences which are always overwritten with default values (workaround for Kodiak-issue)
-*Example Quest_Kodiak-LR_G1000_prefs.txt*: copy of the preferences file in the aircraft folder.
+* *Example Quest_Kodiak-LR_G1000_prefs.txt*: copy of the preferences file in the aircraft folder.
 * *FlywithLua*: Alle FlyWithLua scripts lay here
   * *Kodiak_commands.lua*: A script that defines additional X-Plane 11-commands to be used by joysticks or keys
 
