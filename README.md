@@ -37,3 +37,16 @@ Version: 1.0`".
 ### Kodiak_commands.lua
 
 A script that provides additional X-Plane 11-commands to be used by joysticks or keys. Based on the script by Popeye_swe.
+
+### IXEG733_commands.lua
+
+A script that provides additional X-Plane 11-commands to be used by joysticks or keys.
+
+* Set field of view so that all instruments are visible for the captain's side
+* Create 4 commands to be uses for hardware-fuel-cutoff-levers:
+  * Set lever 1 to on
+  * Set lever 1 to off
+  * Set lever 2 to on
+  * Set lever 2 to off
+  
+  The new commands can then be found under *FlyWithLua/ixeg/Fuel_Start_Lever...*
