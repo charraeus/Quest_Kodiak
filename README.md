@@ -11,7 +11,8 @@ This repository contains tuning scripts for my X-Plane 11-aircraft "Quest Kodiak
 * *writeKodiakPrefs.lua*: App to set some Kodiak preferences which are always overwritten with default values (workaround for Kodiak-issue)
 * *Example Quest_Kodiak-LR_G1000_prefs.txt*: copy of the preferences file in the aircraft folder.
 * *FlywithLua*: Alle FlyWithLua scripts lay here
-  * *Kodiak_commands.lua*: A script that defines additional X-Plane 11-commands to be used by joysticks or keys
+  * *Kodiak_commands.lua*: A script that defines additional X-Plane 11-commands for the **Thranda Quest Kodiak** to be used by joysticks or keys
+  * *IXEG733_commands.lua*: A script that defines additional X-Plane 11-commands for the **IXEG 737-300** to be used by joysticks or keys
 
 ### writeKodiakPrefs.lua, Example Quest_Kodiak-LR_G1000_prefs.txt
 
@@ -42,8 +43,8 @@ A script that provides additional X-Plane 11-commands to be used by joysticks or
 
 A script that provides additional X-Plane 11-commands to be used by joysticks or keys.
 
-* Set field of view so that all instruments are visible for the captain's side
-* Create 4 commands to be uses for hardware-fuel-cutoff-levers:
+* Set field of view so that all necessary instruments are visible on the captain's side
+* Create 4 commands to be used by hardware-fuel-cutoff-levers:
   * Set lever 1 to on
   * Set lever 1 to off
   * Set lever 2 to on
