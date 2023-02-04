@@ -1,4 +1,4 @@
------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 -- FlyWithLua Plugin for IXEG 737-300
 -- By Christian Harraeus <charraeus
 -- Version 1.1.0 / 2022-02-04
@@ -12,9 +12,9 @@
 -- * Create 2 commands to set all landing lights on/off
 -- * Create 2 command to set the taxi light and the runway turnoff lights on/off
 --
--- The new commands can be found under *FlyWithLua/ixeg/...
--- See the x-plane log.txt file for the names of all created commands.
------------------------------------------------------------------------------------------------------------------------------------
+-- The new commands can be found under *FlyWithLua/ixeg/...*  
+-- All created commands are logged in the x-plane log.txt file.
+--------------------------------------------------------------------------------------------------------------
 
 -- If it's not an IXEG, just skip all the rest
 if AIRCRAFT_FILENAME ~= "B733.acf" then return end
@@ -22,7 +22,7 @@ if AIRCRAFT_FILENAME ~= "B733.acf" then return end
 logMsg("  IXEG733_commands.lua started...")
 
 
--- Datarefs -----------------------------------------------------------------------------------------------------------------------
+-- Datarefs --------------------------------------------------------------------------------------------------
 dataref("FoV", "sim/graphics/view/field_of_view_deg", "writable")
 dataref("lever1", "ixeg/733/fuel/fuel_start_lever1_act", "writable")
 dataref("lever2", "ixeg/733/fuel/fuel_start_lever2_act", "writable")
@@ -36,13 +36,13 @@ dataref("txLight", "ixeg/733/lighting/taxi_lt_act", "writable")
 dataref("rwTurnoffLeft", "ixeg/733/lighting/l_rwy_turnoff_act", "writable")
 dataref("rwTurnoffRight", "ixeg/733/lighting/r_rwy_turnoff_act", "writable")
 
--- set lateral field of view 
+-- set lateral field of view ---------------------------------------------------------------------------------
 newFoV = 79.9
 FoV = newFoV
 logMsg("    FOV set to ".. newFoV)
 
 
--- define commands for taxi and runway turnoff lights
+-- define commands for taxi and runway turnoff lights --------------------------------------------------------
 -- Command Taxi and Rwy Turnoff Lights On
 create_command(
 	"FlyWithLua/ixeg/Taxi_and_Rwy_Turnoff_Lights_On",
@@ -73,7 +73,7 @@ create_command(
 logMsg("    Command 'FlyWithLua/ixeg/Taxi_and_Rwy_Turnoff_Lights_Off' created.")
 
 
--- define commands for landing lights
+-- define commands for landing lights ------------------------------------------------------------------------
 -- Command All landing lights on
 create_command(
 	"FlyWithLua/ixeg/All_Landing_Lights_On",
@@ -110,7 +110,7 @@ create_command(
 logMsg("    Command 'FlyWithLua/ixeg/All_Landing_Lights_Off' created.")
 
 
--- define commands for fuel start levers
+-- define commands for fuel start levers ---------------------------------------------------------------------
 -- Command Fuel_Start_Lever_1_On
 create_command(
 	"FlyWithLua/ixeg/Fuel_Start_Lever_1_On",
