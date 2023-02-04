@@ -43,11 +43,15 @@ A script that provides additional X-Plane 11-commands to be used by joysticks or
 
 A script that provides additional X-Plane 11-commands to be used by joysticks or keys.
 
-* Set field of view so that all necessary instruments are visible on the captain's side
-* Create 4 commands to be used by hardware-fuel-cutoff-levers:
+-- * Set field of view so that all instruments are visible for the captain's side
+* Create 4 commands to be used for hardware fuel cutoff levers:
   * Set lever 1 to on
   * Set lever 1 to off
   * Set lever 2 to on
   * Set lever 2 to off
-  
-  The new commands can then be found under *FlyWithLua/ixeg/Fuel_Start_Lever...*
+* Create 2 commands to set all landing lights on/off
+* Create 2 commands to set the taxi light and the runway turnoff lights on/off
+
+The new commands can be found under *FlyWithLua/ixeg/...*
+
+All created commands are logged in the x-plane log.txt file.
